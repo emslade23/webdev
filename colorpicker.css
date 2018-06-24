@@ -1,0 +1,76 @@
+.square {
+	padding-bottom: 30%;
+	float: left;
+	background: purple;
+	margin: 1.66%;
+	width: 30%;
+	height: 30%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+body {
+	background: black;
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+#container {
+	width: 600px;
+	align-self: center;
+	margin: 0 auto; /* 0 on top and bottom, evenly spaced on left and right */
+}
+
+#heading {
+	text-align: center;
+	background: rgb(115, 180, 209);
+	color: white;
+	margin: 0;
+	padding: 2%;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+#colordisplay {
+	font-size: 250%;
+}
+
+#message {
+	background: white;
+	height: 40px;
+	color: rgb(115, 180, 209);
+	text-align: center;
+	margin-bottom: 4px;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: rgb(115, 180, 209);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+}
+
+button:hover {
+	color: white;
+	background: rgb(115, 180, 209);
+}
+
+.selected {
+	background: rgb(115, 180, 209);
+	color: white;
+
+}
+#result {
+	display: inline-block;
+	width: 20%;
+}
