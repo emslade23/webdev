@@ -1,0 +1,14 @@
+{
+  "name": "package_json_demo",
+  "version": "1.0.0",
+  "description": "practice with routes and server side frameworks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elizabeth slade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
